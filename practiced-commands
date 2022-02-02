@@ -1,0 +1,29 @@
+=====================================
+Basic command 
+=====================================
+
+sudo su -   // instantly gets root rights
+ssh-keygen  // generate both ssh private and public key
+cat ~/.ssh/id_rsa  //  read default ssh private key
+cat ~/.ssh/id_rsa.pub // read default ssh public key
+pwd // see the current path 
+
+ls -al // to see all file and directory whatever attribute 
+env // see all environment variable and the corresponding value
+man  [commandn name]   //see all about the command 
+
+===================================
+linux permission 
+====================================
+There are 3 type of patten  #_ _ = owner  , _#_ = group  , _ _ # =  other 
+There are 3 type of permission 1 = execute , 2 = write , 4= read 
+
+if you want to give all  permission to owner  then : 1+2+4=7
+if you want to give all  permission to group  tehn : 1+2+4=7
+if you want to give all  permission to other  then : 1+2+4=7
+
+command is :
+chmod 777 [filename] 
+
+
+
